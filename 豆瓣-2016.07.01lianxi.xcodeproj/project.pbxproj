@@ -7,6 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		30233C621D2B4C83000EFEAD /* ActivityListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30233C601D2B4C83000EFEAD /* ActivityListTableViewController.m */; };
+		30233C6F1D2B4D26000EFEAD /* CinemaListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30233C6D1D2B4D26000EFEAD /* CinemaListTableViewController.m */; };
+		30233C781D2B4D89000EFEAD /* MovieListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30233C761D2B4D89000EFEAD /* MovieListTableViewController.m */; };
+		30233C811D2B4DE0000EFEAD /* UserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30233C7F1D2B4DE0000EFEAD /* UserViewController.m */; };
+		30233C961D2B5A77000EFEAD /* 2image.png in Resources */ = {isa = PBXBuildFile; fileRef = 30233C841D2B5A77000EFEAD /* 2image.png */; };
+		30233C971D2B5A77000EFEAD /* 2image@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 30233C851D2B5A77000EFEAD /* 2image@2x.png */; };
+		30233C981D2B5A77000EFEAD /* 2imageH.png in Resources */ = {isa = PBXBuildFile; fileRef = 30233C861D2B5A77000EFEAD /* 2imageH.png */; };
+		30233C991D2B5A77000EFEAD /* 2imageH@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 30233C871D2B5A77000EFEAD /* 2imageH@2x.png */; };
+		30233C9A1D2B5A77000EFEAD /* paper.png in Resources */ = {isa = PBXBuildFile; fileRef = 30233C881D2B5A77000EFEAD /* paper.png */; };
+		30233C9B1D2B5A77000EFEAD /* paper@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 30233C891D2B5A77000EFEAD /* paper@2x.png */; };
+		30233C9C1D2B5A77000EFEAD /* paperH.png in Resources */ = {isa = PBXBuildFile; fileRef = 30233C8A1D2B5A77000EFEAD /* paperH.png */; };
+		30233C9D1D2B5A77000EFEAD /* paperH@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 30233C8B1D2B5A77000EFEAD /* paperH@2x.png */; };
+		30233C9E1D2B5A77000EFEAD /* person.png in Resources */ = {isa = PBXBuildFile; fileRef = 30233C8C1D2B5A77000EFEAD /* person.png */; };
+		30233C9F1D2B5A77000EFEAD /* person@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 30233C8D1D2B5A77000EFEAD /* person@2x.png */; };
+		30233CA01D2B5A77000EFEAD /* personH.png in Resources */ = {isa = PBXBuildFile; fileRef = 30233C8E1D2B5A77000EFEAD /* personH.png */; };
+		30233CA11D2B5A77000EFEAD /* personH@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 30233C8F1D2B5A77000EFEAD /* personH@2x.png */; };
+		30233CA21D2B5A77000EFEAD /* post_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 30233C901D2B5A77000EFEAD /* post_normal@2x.png */; };
+		30233CA31D2B5A77000EFEAD /* video.png in Resources */ = {isa = PBXBuildFile; fileRef = 30233C911D2B5A77000EFEAD /* video.png */; };
+		30233CA41D2B5A77000EFEAD /* video@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 30233C921D2B5A77000EFEAD /* video@2x.png */; };
+		30233CA51D2B5A77000EFEAD /* videoH.png in Resources */ = {isa = PBXBuildFile; fileRef = 30233C931D2B5A77000EFEAD /* videoH.png */; };
+		30233CA61D2B5A77000EFEAD /* videoH@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 30233C941D2B5A77000EFEAD /* videoH@2x.png */; };
+		30233CAA1D2B5AF1000EFEAD /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30233CA91D2B5AF1000EFEAD /* RootViewController.m */; };
+		30233CAD1D2B5B25000EFEAD /* CustomTabbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 30233CAC1D2B5B25000EFEAD /* CustomTabbar.m */; };
+		30233CB01D2B5B3A000EFEAD /* PublishButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 30233CAF1D2B5B3A000EFEAD /* PublishButton.m */; };
 		30F638EE1D261468004349C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F638ED1D261468004349C6 /* main.m */; };
 		30F638F11D261468004349C6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F638F01D261468004349C6 /* AppDelegate.m */; };
 		30F638F41D261468004349C6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F638F31D261468004349C6 /* ViewController.m */; };
@@ -36,6 +60,37 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		30233C5F1D2B4C83000EFEAD /* ActivityListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityListTableViewController.h; sourceTree = "<group>"; };
+		30233C601D2B4C83000EFEAD /* ActivityListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityListTableViewController.m; sourceTree = "<group>"; };
+		30233C6C1D2B4D26000EFEAD /* CinemaListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CinemaListTableViewController.h; sourceTree = "<group>"; };
+		30233C6D1D2B4D26000EFEAD /* CinemaListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CinemaListTableViewController.m; sourceTree = "<group>"; };
+		30233C751D2B4D89000EFEAD /* MovieListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieListTableViewController.h; sourceTree = "<group>"; };
+		30233C761D2B4D89000EFEAD /* MovieListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieListTableViewController.m; sourceTree = "<group>"; };
+		30233C7E1D2B4DE0000EFEAD /* UserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserViewController.h; sourceTree = "<group>"; };
+		30233C7F1D2B4DE0000EFEAD /* UserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserViewController.m; sourceTree = "<group>"; };
+		30233C841D2B5A77000EFEAD /* 2image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2image.png; sourceTree = "<group>"; };
+		30233C851D2B5A77000EFEAD /* 2image@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "2image@2x.png"; sourceTree = "<group>"; };
+		30233C861D2B5A77000EFEAD /* 2imageH.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2imageH.png; sourceTree = "<group>"; };
+		30233C871D2B5A77000EFEAD /* 2imageH@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "2imageH@2x.png"; sourceTree = "<group>"; };
+		30233C881D2B5A77000EFEAD /* paper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = paper.png; sourceTree = "<group>"; };
+		30233C891D2B5A77000EFEAD /* paper@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "paper@2x.png"; sourceTree = "<group>"; };
+		30233C8A1D2B5A77000EFEAD /* paperH.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = paperH.png; sourceTree = "<group>"; };
+		30233C8B1D2B5A77000EFEAD /* paperH@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "paperH@2x.png"; sourceTree = "<group>"; };
+		30233C8C1D2B5A77000EFEAD /* person.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = person.png; sourceTree = "<group>"; };
+		30233C8D1D2B5A77000EFEAD /* person@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "person@2x.png"; sourceTree = "<group>"; };
+		30233C8E1D2B5A77000EFEAD /* personH.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = personH.png; sourceTree = "<group>"; };
+		30233C8F1D2B5A77000EFEAD /* personH@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "personH@2x.png"; sourceTree = "<group>"; };
+		30233C901D2B5A77000EFEAD /* post_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "post_normal@2x.png"; sourceTree = "<group>"; };
+		30233C911D2B5A77000EFEAD /* video.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = video.png; sourceTree = "<group>"; };
+		30233C921D2B5A77000EFEAD /* video@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "video@2x.png"; sourceTree = "<group>"; };
+		30233C931D2B5A77000EFEAD /* videoH.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = videoH.png; sourceTree = "<group>"; };
+		30233C941D2B5A77000EFEAD /* videoH@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "videoH@2x.png"; sourceTree = "<group>"; };
+		30233CA81D2B5AF1000EFEAD /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		30233CA91D2B5AF1000EFEAD /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		30233CAB1D2B5B25000EFEAD /* CustomTabbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTabbar.h; sourceTree = "<group>"; };
+		30233CAC1D2B5B25000EFEAD /* CustomTabbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTabbar.m; sourceTree = "<group>"; };
+		30233CAE1D2B5B3A000EFEAD /* PublishButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PublishButton.h; sourceTree = "<group>"; };
+		30233CAF1D2B5B3A000EFEAD /* PublishButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PublishButton.m; sourceTree = "<group>"; };
 		30F638E91D261468004349C6 /* 豆瓣-2016.07.01lianxi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "豆瓣-2016.07.01lianxi.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		30F638ED1D261468004349C6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		30F638EF1D261468004349C6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -80,6 +135,195 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		30233C5E1D2B4C4F000EFEAD /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				30233C641D2B4C8B000EFEAD /* Activity */,
+				30233C681D2B4CE1000EFEAD /* Cinema */,
+				30233C711D2B4D3C000EFEAD /* Movie */,
+				30233C7A1D2B4D92000EFEAD /* User */,
+			);
+			name = Scenes;
+			sourceTree = "<group>";
+		};
+		30233C641D2B4C8B000EFEAD /* Activity */ = {
+			isa = PBXGroup;
+			children = (
+				30233C651D2B4CA0000EFEAD /* ViewControllers */,
+				30233C661D2B4CB8000EFEAD /* Views */,
+				30233C671D2B4CC9000EFEAD /* Models */,
+			);
+			name = Activity;
+			sourceTree = "<group>";
+		};
+		30233C651D2B4CA0000EFEAD /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				30233C5F1D2B4C83000EFEAD /* ActivityListTableViewController.h */,
+				30233C601D2B4C83000EFEAD /* ActivityListTableViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		30233C661D2B4CB8000EFEAD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		30233C671D2B4CC9000EFEAD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		30233C681D2B4CE1000EFEAD /* Cinema */ = {
+			isa = PBXGroup;
+			children = (
+				30233C6B1D2B4D04000EFEAD /* ViewControllers */,
+				30233C6A1D2B4CFC000EFEAD /* Views */,
+				30233C691D2B4CEF000EFEAD /* Models */,
+			);
+			name = Cinema;
+			sourceTree = "<group>";
+		};
+		30233C691D2B4CEF000EFEAD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		30233C6A1D2B4CFC000EFEAD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		30233C6B1D2B4D04000EFEAD /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				30233C6C1D2B4D26000EFEAD /* CinemaListTableViewController.h */,
+				30233C6D1D2B4D26000EFEAD /* CinemaListTableViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		30233C711D2B4D3C000EFEAD /* Movie */ = {
+			isa = PBXGroup;
+			children = (
+				30233C741D2B4D70000EFEAD /* ViewControllers */,
+				30233C731D2B4D67000EFEAD /* Views */,
+				30233C721D2B4D5F000EFEAD /* Models */,
+			);
+			name = Movie;
+			sourceTree = "<group>";
+		};
+		30233C721D2B4D5F000EFEAD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		30233C731D2B4D67000EFEAD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		30233C741D2B4D70000EFEAD /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				30233C751D2B4D89000EFEAD /* MovieListTableViewController.h */,
+				30233C761D2B4D89000EFEAD /* MovieListTableViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		30233C7A1D2B4D92000EFEAD /* User */ = {
+			isa = PBXGroup;
+			children = (
+				30233C7D1D2B4DAB000EFEAD /* ViewControllers */,
+				30233C7C1D2B4DA4000EFEAD /* Views */,
+				30233C7B1D2B4D9C000EFEAD /* Models */,
+			);
+			name = User;
+			sourceTree = "<group>";
+		};
+		30233C7B1D2B4D9C000EFEAD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		30233C7C1D2B4DA4000EFEAD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		30233C7D1D2B4DAB000EFEAD /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				30233C7E1D2B4DE0000EFEAD /* UserViewController.h */,
+				30233C7F1D2B4DE0000EFEAD /* UserViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		30233C831D2B5A58000EFEAD /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				30233C951D2B5A77000EFEAD /* tabbarImages */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		30233C951D2B5A77000EFEAD /* tabbarImages */ = {
+			isa = PBXGroup;
+			children = (
+				30233C841D2B5A77000EFEAD /* 2image.png */,
+				30233C851D2B5A77000EFEAD /* 2image@2x.png */,
+				30233C861D2B5A77000EFEAD /* 2imageH.png */,
+				30233C871D2B5A77000EFEAD /* 2imageH@2x.png */,
+				30233C881D2B5A77000EFEAD /* paper.png */,
+				30233C891D2B5A77000EFEAD /* paper@2x.png */,
+				30233C8A1D2B5A77000EFEAD /* paperH.png */,
+				30233C8B1D2B5A77000EFEAD /* paperH@2x.png */,
+				30233C8C1D2B5A77000EFEAD /* person.png */,
+				30233C8D1D2B5A77000EFEAD /* person@2x.png */,
+				30233C8E1D2B5A77000EFEAD /* personH.png */,
+				30233C8F1D2B5A77000EFEAD /* personH@2x.png */,
+				30233C901D2B5A77000EFEAD /* post_normal@2x.png */,
+				30233C911D2B5A77000EFEAD /* video.png */,
+				30233C921D2B5A77000EFEAD /* video@2x.png */,
+				30233C931D2B5A77000EFEAD /* videoH.png */,
+				30233C941D2B5A77000EFEAD /* videoH@2x.png */,
+			);
+			name = tabbarImages;
+			path = "../../课上代码/第一天/DouBanProject/DouBanProject/classes/Resources/tabbarImages";
+			sourceTree = "<group>";
+		};
+		30233CA71D2B5AB8000EFEAD /* CustomTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				30233CA81D2B5AF1000EFEAD /* RootViewController.h */,
+				30233CA91D2B5AF1000EFEAD /* RootViewController.m */,
+				30233CAB1D2B5B25000EFEAD /* CustomTabbar.h */,
+				30233CAC1D2B5B25000EFEAD /* CustomTabbar.m */,
+				30233CAE1D2B5B3A000EFEAD /* PublishButton.h */,
+				30233CAF1D2B5B3A000EFEAD /* PublishButton.m */,
+			);
+			name = CustomTabBar;
+			sourceTree = "<group>";
+		};
 		30F638E01D261468004349C6 = {
 			isa = PBXGroup;
 			children = (
@@ -107,6 +351,9 @@
 				30F638F01D261468004349C6 /* AppDelegate.m */,
 				30F638F21D261468004349C6 /* ViewController.h */,
 				30F638F31D261468004349C6 /* ViewController.m */,
+				30233CA71D2B5AB8000EFEAD /* CustomTabBar */,
+				30233C5E1D2B4C4F000EFEAD /* Scenes */,
+				30233C831D2B5A58000EFEAD /* Resource */,
 				30F638F51D261468004349C6 /* Main.storyboard */,
 				30F638FB1D261468004349C6 /* Assets.xcassets */,
 				30F638FD1D261468004349C6 /* LaunchScreen.storyboard */,
@@ -249,9 +496,26 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30233C9E1D2B5A77000EFEAD /* person.png in Resources */,
+				30233CA01D2B5A77000EFEAD /* personH.png in Resources */,
+				30233CA41D2B5A77000EFEAD /* video@2x.png in Resources */,
 				30F638FF1D261468004349C6 /* LaunchScreen.storyboard in Resources */,
+				30233CA11D2B5A77000EFEAD /* personH@2x.png in Resources */,
+				30233C9B1D2B5A77000EFEAD /* paper@2x.png in Resources */,
 				30F638FC1D261468004349C6 /* Assets.xcassets in Resources */,
+				30233C961D2B5A77000EFEAD /* 2image.png in Resources */,
 				30F638F71D261468004349C6 /* Main.storyboard in Resources */,
+				30233CA61D2B5A77000EFEAD /* videoH@2x.png in Resources */,
+				30233C9C1D2B5A77000EFEAD /* paperH.png in Resources */,
+				30233CA51D2B5A77000EFEAD /* videoH.png in Resources */,
+				30233C9A1D2B5A77000EFEAD /* paper.png in Resources */,
+				30233CA31D2B5A77000EFEAD /* video.png in Resources */,
+				30233C9D1D2B5A77000EFEAD /* paperH@2x.png in Resources */,
+				30233C971D2B5A77000EFEAD /* 2image@2x.png in Resources */,
+				30233C981D2B5A77000EFEAD /* 2imageH.png in Resources */,
+				30233CA21D2B5A77000EFEAD /* post_normal@2x.png in Resources */,
+				30233C9F1D2B5A77000EFEAD /* person@2x.png in Resources */,
+				30233C991D2B5A77000EFEAD /* 2imageH@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,9 +540,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30233C6F1D2B4D26000EFEAD /* CinemaListTableViewController.m in Sources */,
 				30F638F41D261468004349C6 /* ViewController.m in Sources */,
 				30F638F11D261468004349C6 /* AppDelegate.m in Sources */,
 				30F638FA1D261468004349C6 /* ___2016_07_01lianxi.xcdatamodeld in Sources */,
+				30233C621D2B4C83000EFEAD /* ActivityListTableViewController.m in Sources */,
+				30233CAA1D2B5AF1000EFEAD /* RootViewController.m in Sources */,
+				30233C811D2B4DE0000EFEAD /* UserViewController.m in Sources */,
+				30233CB01D2B5B3A000EFEAD /* PublishButton.m in Sources */,
+				30233C781D2B4D89000EFEAD /* MovieListTableViewController.m in Sources */,
+				30233CAD1D2B5B25000EFEAD /* CustomTabbar.m in Sources */,
 				30F638EE1D261468004349C6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -503,6 +774,7 @@
 				30F6391B1D261468004349C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		30F6391C1D261468004349C6 /* Build configuration list for PBXNativeTarget "豆瓣-2016.07.01lianxiTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +783,7 @@
 				30F6391E1D261468004349C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		30F6391F1D261468004349C6 /* Build configuration list for PBXNativeTarget "豆瓣-2016.07.01lianxiUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +792,7 @@
 				30F639211D261468004349C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
