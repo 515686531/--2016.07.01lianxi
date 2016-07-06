@@ -33,13 +33,13 @@
 		30233CB01D2B5B3A000EFEAD /* PublishButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 30233CAF1D2B5B3A000EFEAD /* PublishButton.m */; };
 		30F638EE1D261468004349C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F638ED1D261468004349C6 /* main.m */; };
 		30F638F11D261468004349C6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F638F01D261468004349C6 /* AppDelegate.m */; };
-		30F638F41D261468004349C6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F638F31D261468004349C6 /* ViewController.m */; };
 		30F638F71D261468004349C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30F638F51D261468004349C6 /* Main.storyboard */; };
 		30F638FA1D261468004349C6 /* ___2016_07_01lianxi.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 30F638F81D261468004349C6 /* ___2016_07_01lianxi.xcdatamodeld */; };
 		30F638FC1D261468004349C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30F638FB1D261468004349C6 /* Assets.xcassets */; };
 		30F638FF1D261468004349C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30F638FD1D261468004349C6 /* LaunchScreen.storyboard */; };
 		30F6390A1D261468004349C6 /* ___2016_07_01lianxiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F639091D261468004349C6 /* ___2016_07_01lianxiTests.m */; };
 		30F639151D261468004349C6 /* ___2016_07_01lianxiUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F639141D261468004349C6 /* ___2016_07_01lianxiUITests.m */; };
+		54544D7DD124BC0DD8FD3E1E /* libPods-豆瓣-2016.07.01lianxi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7374C18BDEAECA65871A6A28 /* libPods-豆瓣-2016.07.01lianxi.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -95,8 +95,6 @@
 		30F638ED1D261468004349C6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		30F638EF1D261468004349C6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		30F638F01D261468004349C6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		30F638F21D261468004349C6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		30F638F31D261468004349C6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		30F638F61D261468004349C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		30F638F91D261468004349C6 /* ___2016_07_01lianxi.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "___2016_07_01lianxi.xcdatamodel"; sourceTree = "<group>"; };
 		30F638FB1D261468004349C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -108,6 +106,9 @@
 		30F639101D261468004349C6 /* 豆瓣-2016.07.01lianxiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "豆瓣-2016.07.01lianxiUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		30F639141D261468004349C6 /* ___2016_07_01lianxiUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___2016_07_01lianxiUITests.m"; sourceTree = "<group>"; };
 		30F639161D261468004349C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7374C18BDEAECA65871A6A28 /* libPods-豆瓣-2016.07.01lianxi.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-豆瓣-2016.07.01lianxi.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C40F41F6DF808C7E8D029274 /* Pods-豆瓣-2016.07.01lianxi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-豆瓣-2016.07.01lianxi.debug.xcconfig"; path = "Pods/Target Support Files/Pods-豆瓣-2016.07.01lianxi/Pods-豆瓣-2016.07.01lianxi.debug.xcconfig"; sourceTree = "<group>"; };
+		C7C7D4726DE08ED68A43927C /* Pods-豆瓣-2016.07.01lianxi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-豆瓣-2016.07.01lianxi.release.xcconfig"; path = "Pods/Target Support Files/Pods-豆瓣-2016.07.01lianxi/Pods-豆瓣-2016.07.01lianxi.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +116,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54544D7DD124BC0DD8FD3E1E /* libPods-豆瓣-2016.07.01lianxi.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,6 +137,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		025730E3B7757DFA7BFE835B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C40F41F6DF808C7E8D029274 /* Pods-豆瓣-2016.07.01lianxi.debug.xcconfig */,
+				C7C7D4726DE08ED68A43927C /* Pods-豆瓣-2016.07.01lianxi.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2C160FD1855993EB43E3E60B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7374C18BDEAECA65871A6A28 /* libPods-豆瓣-2016.07.01lianxi.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		30233C5E1D2B4C4F000EFEAD /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
@@ -331,6 +350,8 @@
 				30F639081D261468004349C6 /* 豆瓣-2016.07.01lianxiTests */,
 				30F639131D261468004349C6 /* 豆瓣-2016.07.01lianxiUITests */,
 				30F638EA1D261468004349C6 /* Products */,
+				025730E3B7757DFA7BFE835B /* Pods */,
+				2C160FD1855993EB43E3E60B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -349,8 +370,6 @@
 			children = (
 				30F638EF1D261468004349C6 /* AppDelegate.h */,
 				30F638F01D261468004349C6 /* AppDelegate.m */,
-				30F638F21D261468004349C6 /* ViewController.h */,
-				30F638F31D261468004349C6 /* ViewController.m */,
 				30233CA71D2B5AB8000EFEAD /* CustomTabBar */,
 				30233C5E1D2B4C4F000EFEAD /* Scenes */,
 				30233C831D2B5A58000EFEAD /* Resource */,
@@ -397,9 +416,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 30F639191D261468004349C6 /* Build configuration list for PBXNativeTarget "豆瓣-2016.07.01lianxi" */;
 			buildPhases = (
+				C226812000A28F1308552077 /* [CP] Check Pods Manifest.lock */,
 				30F638E51D261468004349C6 /* Sources */,
 				30F638E61D261468004349C6 /* Frameworks */,
 				30F638E71D261468004349C6 /* Resources */,
+				65DF648F22E2D73EFC26A86E /* [CP] Embed Pods Frameworks */,
+				F83654D4A656D0622516AEA3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -535,13 +557,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		65DF648F22E2D73EFC26A86E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-豆瓣-2016.07.01lianxi/Pods-豆瓣-2016.07.01lianxi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C226812000A28F1308552077 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F83654D4A656D0622516AEA3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-豆瓣-2016.07.01lianxi/Pods-豆瓣-2016.07.01lianxi-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		30F638E51D261468004349C6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				30233C6F1D2B4D26000EFEAD /* CinemaListTableViewController.m in Sources */,
-				30F638F41D261468004349C6 /* ViewController.m in Sources */,
 				30F638F11D261468004349C6 /* AppDelegate.m in Sources */,
 				30F638FA1D261468004349C6 /* ___2016_07_01lianxi.xcdatamodeld in Sources */,
 				30233C621D2B4C83000EFEAD /* ActivityListTableViewController.m in Sources */,
@@ -687,6 +756,7 @@
 		};
 		30F6391A1D261468004349C6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C40F41F6DF808C7E8D029274 /* Pods-豆瓣-2016.07.01lianxi.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "豆瓣-2016.07.01lianxi/Info.plist";
@@ -698,6 +768,7 @@
 		};
 		30F6391B1D261468004349C6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7C7D4726DE08ED68A43927C /* Pods-豆瓣-2016.07.01lianxi.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "豆瓣-2016.07.01lianxi/Info.plist";
