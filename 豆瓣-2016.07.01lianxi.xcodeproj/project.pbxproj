@@ -31,6 +31,10 @@
 		30233CAA1D2B5AF1000EFEAD /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30233CA91D2B5AF1000EFEAD /* RootViewController.m */; };
 		30233CAD1D2B5B25000EFEAD /* CustomTabbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 30233CAC1D2B5B25000EFEAD /* CustomTabbar.m */; };
 		30233CB01D2B5B3A000EFEAD /* PublishButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 30233CAF1D2B5B3A000EFEAD /* PublishButton.m */; };
+		30233D621D2DFA3A000EFEAD /* Movie.m in Sources */ = {isa = PBXBuildFile; fileRef = 30233D611D2DFA3A000EFEAD /* Movie.m */; };
+		30233D661D2DFA8A000EFEAD /* ImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 30233D651D2DFA8A000EFEAD /* ImageDownloader.m */; };
+		30233D691D2DFAF4000EFEAD /* MovieCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 30233D681D2DFAF4000EFEAD /* MovieCell.m */; };
+		30233D6C1D2E4127000EFEAD /* NetWorkRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 30233D6B1D2E4127000EFEAD /* NetWorkRequestManager.m */; };
 		30F638EE1D261468004349C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F638ED1D261468004349C6 /* main.m */; };
 		30F638F11D261468004349C6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F638F01D261468004349C6 /* AppDelegate.m */; };
 		30F638F71D261468004349C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30F638F51D261468004349C6 /* Main.storyboard */; };
@@ -91,6 +95,17 @@
 		30233CAC1D2B5B25000EFEAD /* CustomTabbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTabbar.m; sourceTree = "<group>"; };
 		30233CAE1D2B5B3A000EFEAD /* PublishButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PublishButton.h; sourceTree = "<group>"; };
 		30233CAF1D2B5B3A000EFEAD /* PublishButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PublishButton.m; sourceTree = "<group>"; };
+		30233D601D2DFA3A000EFEAD /* Movie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Movie.h; sourceTree = "<group>"; };
+		30233D611D2DFA3A000EFEAD /* Movie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Movie.m; sourceTree = "<group>"; };
+		30233D641D2DFA8A000EFEAD /* ImageDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageDownloader.h; sourceTree = "<group>"; };
+		30233D651D2DFA8A000EFEAD /* ImageDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageDownloader.m; sourceTree = "<group>"; };
+		30233D671D2DFAF4000EFEAD /* MovieCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieCell.h; sourceTree = "<group>"; };
+		30233D681D2DFAF4000EFEAD /* MovieCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieCell.m; sourceTree = "<group>"; };
+		30233D6A1D2E4127000EFEAD /* NetWorkRequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetWorkRequestManager.h; sourceTree = "<group>"; };
+		30233D6B1D2E4127000EFEAD /* NetWorkRequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetWorkRequestManager.m; sourceTree = "<group>"; };
+		30233D6E1D2E4369000EFEAD /* Color_marco.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Color_marco.h; sourceTree = "<group>"; };
+		30233D6F1D2E4369000EFEAD /* Main_marco.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Main_marco.h; sourceTree = "<group>"; };
+		30233D701D2E4369000EFEAD /* Singleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
 		30F638E91D261468004349C6 /* 豆瓣-2016.07.01lianxi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "豆瓣-2016.07.01lianxi.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		30F638ED1D261468004349C6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		30F638EF1D261468004349C6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -244,6 +259,8 @@
 		30233C721D2B4D5F000EFEAD /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				30233D601D2DFA3A000EFEAD /* Movie.h */,
+				30233D611D2DFA3A000EFEAD /* Movie.m */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -251,6 +268,8 @@
 		30233C731D2B4D67000EFEAD /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				30233D671D2DFAF4000EFEAD /* MovieCell.h */,
+				30233D681D2DFAF4000EFEAD /* MovieCell.m */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -343,6 +362,24 @@
 			name = CustomTabBar;
 			sourceTree = "<group>";
 		};
+		30233D631D2DFA7B000EFEAD /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				30233D641D2DFA8A000EFEAD /* ImageDownloader.h */,
+				30233D651D2DFA8A000EFEAD /* ImageDownloader.m */,
+				30233D6A1D2E4127000EFEAD /* NetWorkRequestManager.h */,
+				30233D6B1D2E4127000EFEAD /* NetWorkRequestManager.m */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
+		30233D6D1D2E4352000EFEAD /* Marco */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Marco;
+			sourceTree = "<group>";
+		};
 		30F638E01D261468004349C6 = {
 			isa = PBXGroup;
 			children = (
@@ -370,6 +407,11 @@
 			children = (
 				30F638EF1D261468004349C6 /* AppDelegate.h */,
 				30F638F01D261468004349C6 /* AppDelegate.m */,
+				30233D6D1D2E4352000EFEAD /* Marco */,
+				30233D6E1D2E4369000EFEAD /* Color_marco.h */,
+				30233D6F1D2E4369000EFEAD /* Main_marco.h */,
+				30233D701D2E4369000EFEAD /* Singleton.h */,
+				30233D631D2DFA7B000EFEAD /* Helper */,
 				30233CA71D2B5AB8000EFEAD /* CustomTabBar */,
 				30233C5E1D2B4C4F000EFEAD /* Scenes */,
 				30233C831D2B5A58000EFEAD /* Resource */,
@@ -610,16 +652,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30233D6C1D2E4127000EFEAD /* NetWorkRequestManager.m in Sources */,
+				30233D621D2DFA3A000EFEAD /* Movie.m in Sources */,
 				30233C6F1D2B4D26000EFEAD /* CinemaListTableViewController.m in Sources */,
 				30F638F11D261468004349C6 /* AppDelegate.m in Sources */,
 				30F638FA1D261468004349C6 /* ___2016_07_01lianxi.xcdatamodeld in Sources */,
 				30233C621D2B4C83000EFEAD /* ActivityListTableViewController.m in Sources */,
 				30233CAA1D2B5AF1000EFEAD /* RootViewController.m in Sources */,
+				30233D661D2DFA8A000EFEAD /* ImageDownloader.m in Sources */,
 				30233C811D2B4DE0000EFEAD /* UserViewController.m in Sources */,
 				30233CB01D2B5B3A000EFEAD /* PublishButton.m in Sources */,
 				30233C781D2B4D89000EFEAD /* MovieListTableViewController.m in Sources */,
 				30233CAD1D2B5B25000EFEAD /* CustomTabbar.m in Sources */,
 				30F638EE1D261468004349C6 /* main.m in Sources */,
+				30233D691D2DFAF4000EFEAD /* MovieCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
