@@ -1,10 +1,5 @@
-//
-//  Color_marco.h
-//  DouBanProject
-//
-//  Created by 王佩 on 16/5/6.
-//  Copyright © 2016年 lanou3g.com 蓝鸥科技. All rights reserved.
-//
+
+//设置颜色的宏定义文件
 
 #ifndef Color_marco_h
 #define Color_marco_h

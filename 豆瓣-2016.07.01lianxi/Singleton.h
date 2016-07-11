@@ -1,10 +1,5 @@
-//
-//  Singleton.h
-//  DouBanProject
-//
-//  Created by 王佩 on 16/5/9.
-//  Copyright © 2016年 lanou3g.com 蓝鸥科技. All rights reserved.
-//
+
+//设置单例的宏定义文件
 
 #ifndef Singleton_h
 #define Singleton_h

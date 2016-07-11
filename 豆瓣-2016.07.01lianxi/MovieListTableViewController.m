@@ -4,6 +4,7 @@
 #import "MovieCell.h"
 #import "NetWorkRequestManager.h"
 #import "Main_marco.h"
+#import "MovieDetailViewController.h"
 
 @interface MovieListTableViewController ()
 
@@ -119,10 +120,33 @@
 }
 
 
-
+#pragma mark --- 设置cell高度
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     return 110;
+}
+
+#pragma mark - Navigation
+
+// In a storyboard-based application, you will often want to do a little preparation before navigation
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    
+    //是push电影详情界面
+    if ([@"push_MovieDetailViewController_identfier" isEqualToString:segue.identifier] && ![self.navigationController.topViewController isKindOfClass:[MovieDetailViewController class]]){
+        //获取到要push的界面对象，使用segue不需要自己push，有需要传的值需要通过这个方法去赋值传递
+        MovieDetailViewController *movieDetailVC = (MovieDetailViewController *)segue.destinationViewController;
+       NSIndexPath *indexPath = [self.tableView indexPathForCell:sender];
+        
+        Movie * movie = self.allMoviesArray[indexPath.row];
+        //属性传值
+        movieDetailVC.movie = movie;
+        //但是注意 使用segue 就会push，已经关联了，不需要手动写push
+//        [self.navigationController pushViewController:movieDetailVC animated:YES];
+        
+    }
+    
+    
+    
 }
 
 

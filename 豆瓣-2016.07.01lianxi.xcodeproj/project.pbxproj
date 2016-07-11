@@ -35,6 +35,7 @@
 		30233D661D2DFA8A000EFEAD /* ImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 30233D651D2DFA8A000EFEAD /* ImageDownloader.m */; };
 		30233D691D2DFAF4000EFEAD /* MovieCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 30233D681D2DFAF4000EFEAD /* MovieCell.m */; };
 		30233D6C1D2E4127000EFEAD /* NetWorkRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 30233D6B1D2E4127000EFEAD /* NetWorkRequestManager.m */; };
+		30D0566C1D2F5A40003DF8B1 /* MovieDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30D0566B1D2F5A40003DF8B1 /* MovieDetailViewController.m */; };
 		30F638EE1D261468004349C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F638ED1D261468004349C6 /* main.m */; };
 		30F638F11D261468004349C6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F638F01D261468004349C6 /* AppDelegate.m */; };
 		30F638F71D261468004349C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30F638F51D261468004349C6 /* Main.storyboard */; };
@@ -106,6 +107,8 @@
 		30233D6E1D2E4369000EFEAD /* Color_marco.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Color_marco.h; sourceTree = "<group>"; };
 		30233D6F1D2E4369000EFEAD /* Main_marco.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Main_marco.h; sourceTree = "<group>"; };
 		30233D701D2E4369000EFEAD /* Singleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
+		30D0566A1D2F5A40003DF8B1 /* MovieDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieDetailViewController.h; sourceTree = "<group>"; };
+		30D0566B1D2F5A40003DF8B1 /* MovieDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieDetailViewController.m; sourceTree = "<group>"; };
 		30F638E91D261468004349C6 /* 豆瓣-2016.07.01lianxi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "豆瓣-2016.07.01lianxi.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		30F638ED1D261468004349C6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		30F638EF1D261468004349C6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -279,6 +282,8 @@
 			children = (
 				30233C751D2B4D89000EFEAD /* MovieListTableViewController.h */,
 				30233C761D2B4D89000EFEAD /* MovieListTableViewController.m */,
+				30D0566A1D2F5A40003DF8B1 /* MovieDetailViewController.h */,
+				30D0566B1D2F5A40003DF8B1 /* MovieDetailViewController.m */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -376,6 +381,9 @@
 		30233D6D1D2E4352000EFEAD /* Marco */ = {
 			isa = PBXGroup;
 			children = (
+				30233D6E1D2E4369000EFEAD /* Color_marco.h */,
+				30233D6F1D2E4369000EFEAD /* Main_marco.h */,
+				30233D701D2E4369000EFEAD /* Singleton.h */,
 			);
 			name = Marco;
 			sourceTree = "<group>";
@@ -407,13 +415,10 @@
 			children = (
 				30F638EF1D261468004349C6 /* AppDelegate.h */,
 				30F638F01D261468004349C6 /* AppDelegate.m */,
-				30233D6D1D2E4352000EFEAD /* Marco */,
-				30233D6E1D2E4369000EFEAD /* Color_marco.h */,
-				30233D6F1D2E4369000EFEAD /* Main_marco.h */,
-				30233D701D2E4369000EFEAD /* Singleton.h */,
-				30233D631D2DFA7B000EFEAD /* Helper */,
 				30233CA71D2B5AB8000EFEAD /* CustomTabBar */,
 				30233C5E1D2B4C4F000EFEAD /* Scenes */,
+				30233D6D1D2E4352000EFEAD /* Marco */,
+				30233D631D2DFA7B000EFEAD /* Helper */,
 				30233C831D2B5A58000EFEAD /* Resource */,
 				30F638F51D261468004349C6 /* Main.storyboard */,
 				30F638FB1D261468004349C6 /* Assets.xcassets */,
@@ -664,6 +669,7 @@
 				30233CB01D2B5B3A000EFEAD /* PublishButton.m in Sources */,
 				30233C781D2B4D89000EFEAD /* MovieListTableViewController.m in Sources */,
 				30233CAD1D2B5B25000EFEAD /* CustomTabbar.m in Sources */,
+				30D0566C1D2F5A40003DF8B1 /* MovieDetailViewController.m in Sources */,
 				30F638EE1D261468004349C6 /* main.m in Sources */,
 				30233D691D2DFAF4000EFEAD /* MovieCell.m in Sources */,
 			);

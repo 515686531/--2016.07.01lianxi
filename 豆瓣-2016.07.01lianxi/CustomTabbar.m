@@ -1,5 +1,4 @@
 
-
 #import "CustomTabbar.h"
 
 @interface CustomTabbar ()
@@ -70,6 +69,7 @@
  **当存在view时才会传递对应的event，现在点击了父视图以外的范围，自然返回的是nil。所以当子视图（比如按钮btn）因为一些原因超出了父视图范围，就要重写hittest方法，让其返回对应的子视图，来接收事件。即：点击的点在自视图范围内（self.button）就返回self.button此时就会执行self.button的点击事件
  
  */
+
 - (UIView *)hitTest:(CGPoint)point withEvent:(UIEvent *)event {
     //先执行父类的方法返回响应对象
     UIView *view = [super hitTest:point withEvent:event];

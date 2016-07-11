@@ -16,7 +16,7 @@ typedef void(^failedBlock)(NSError * error);
  *  @param type           请求方式（使用枚举类型或者字符串都可以，本类用大写的字符串，例如@"POST",@"GET"）
  *  @param urlString      URL(如果是GET，就是整个链接；如果是POST，就是网址链接前半段到？)
  *  @param bodyString     URL(如果是POST就是网址链接？后面的部分，其他的nil)
- *  @param param          请求参数
+ *  @param param          请求参数（有参数需要传递时使用）
  *  @param successedBlock 请求成功执行的block
  *  @param failedBlock    请求失败执行的block
  

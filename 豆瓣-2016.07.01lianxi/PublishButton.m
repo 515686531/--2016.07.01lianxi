@@ -1,9 +1,9 @@
 
 
+
 #import "PublishButton.h"
 
 @implementation PublishButton
-
 
 //初始化方法
 - (instancetype)initWithFrame:(CGRect)frame
@@ -13,6 +13,7 @@
     }
     return self;
 }
+
 //类方法
 + (instancetype)createPublishButton
 {
@@ -28,8 +29,6 @@
     [button addTarget:button action:@selector(clickPublishButton) forControlEvents:UIControlEventTouchUpInside];
     return button;
 }
-
-
 
 - (void)clickPublishButton
 {

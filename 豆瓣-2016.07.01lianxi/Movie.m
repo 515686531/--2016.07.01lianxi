@@ -11,11 +11,17 @@
  *  重写setValue:forUndefineKey
  */
 
-- (void)setValue:(id)value forUndefinedKey:(NSString *)key
+- (void)setValue:(id)value forKey:(NSString *)key
 {
-  key = [key isEqualToString:@"id"]?@"ID":key;
+    key = [key isEqualToString:@"id"]?@"ID":key;
     [super setValue:value forKey:key];
 }
+
+- (void)setValue:(id)value forUndefinedKey:(NSString *)key
+{
+    
+}
+
 
 //根据请求图片
 - (void)loadImage

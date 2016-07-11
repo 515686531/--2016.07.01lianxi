@@ -20,9 +20,9 @@
 
 @interface ImageDownloader : NSObject
 
-//声明代理属性
 
-//@property (nonatomic, weak)id<>
+
+//请求图片的类，获取到图片代理执行协议方法 传回请求下来的图片
 #pragma mark-- 实例初始化方法
 - (instancetype)initWithImageUrlString:(NSString *)imageUrlStr delegate:(id<ImageDownloaderDelegate>)dele;
 #pragma mark-- 遍历构造器方法
